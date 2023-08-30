@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey - Page 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id='head'>Code Alpha Survey Form</h1>
+	<h2 id='subhead'>Thank you for taking the time to help us to improve our platform</h2>
+    <form id="surveyForm">
+	<div id='content'>
+	<label id='name'>Name</label><br>
+      <input type="text" id="name" class="box" required><br><br>
+	<label id="email">Email</label><br>
+<input type="text" id="email" class="box" required><br><br>
+<label  id='phone'> Phone number</label><br>
+
+<input type="text" id='phone' class="box" required><br><br>
+
+<label  id='role'> Which option best describes your current role?</label><br><br>
+     <div id='option'>
+		<input type='checkbox'> Student</option><br>
+		<input type='checkbox'> Working</option><br>
+		<input type='checkbox'> Other</option><br>
+		<input type='checkbox'> Prefer not to say</option><br><br><br>
+	  </div>
+	 <button type="button" id="nextBtn">Next</button>
+	 <button type='reset' id='reset'>Reset</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
